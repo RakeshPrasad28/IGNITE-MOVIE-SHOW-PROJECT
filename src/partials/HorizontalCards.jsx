@@ -23,7 +23,7 @@ const HorizontalCards = ({ data }) => {
                 {t.title || t.original_title || t.name || t.original_name}
               </h1>
               <p className="text-sm leading-4">
-                {t.overview.slice(0, 80)}
+                {t?.overview?.slice(0, 80)}
                 <span className="text-blue-400">...more</span>
               </p>
             </div>
